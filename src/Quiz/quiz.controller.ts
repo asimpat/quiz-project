@@ -4,7 +4,6 @@ import {
   Post,
   Body,
   Param,
-  HttpCode,
   ValidationPipe,
   UsePipes,
   ParseIntPipe,
@@ -15,7 +14,6 @@ import { ApiTags } from '@nestjs/swagger';
 import { IPaginationOptions, Pagination } from 'nestjs-typeorm-paginate';
 import { CreateQuizDto } from 'src/dto/quiz.dto';
 import { Quiz } from 'src/entities/Quiz.entity';
-
 import { QuizService } from './quiz.service';
 
 @ApiTags('Quiz')
